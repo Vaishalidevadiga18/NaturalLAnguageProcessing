@@ -15,9 +15,9 @@ typedef struct {
 int main() {
     // Corpus of sentences
     char *corpus[] = {
-        "There is a big garden.",
-        "Children play in a garden.",
-        "They play inside a beautiful garden."
+        "There is a big garden",
+        "Children play in the garden",
+        "They play inside  beautiful garden"
     };
     int corpus_size = sizeof(corpus) / sizeof(corpus[0]);
 
@@ -99,3 +99,4 @@ int main() {
 
     return 0;
 }
+ 
